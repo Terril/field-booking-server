@@ -6,12 +6,12 @@ import com.fielldBooking.apiRequest.datamodel.SportsList
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
-import java.util.concurrent.atomic.AtomicLong
+import java.util.concurrent.atomic.AtomicInteger
 
 @RestController
 @RequestMapping("/sports")
 class SportsListingController {
-    val counter = AtomicLong()
+    val counter = AtomicInteger()
 
     @GetMapping("/list")
     fun sportsListing(): List<SportsList> {
