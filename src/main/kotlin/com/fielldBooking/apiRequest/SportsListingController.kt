@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RestController
 import java.util.concurrent.atomic.AtomicLong
 
 @RestController
-class GreetingController {
+class SportsListingController {
     val counter = AtomicLong()
 
-    @GetMapping("/greeting")
-    fun greeting(@RequestParam(value = "name", defaultValue = "World") name: String) =
-            Greeting(counter.incrementAndGet(), "Hello, $name")
+    @GetMapping("/sports-listing")
+    fun sportsListing() =
+            SportsListing(counter.incrementAndGet(), "Hello", "https://www.wikihow.com/images/thumb/1/18/Play-Basketball-Step-4-Version-3.jpg/aid413339-v4-728px-Play-Basketball-Step-4-Version-3.jpg.webp")
 }
