@@ -3,9 +3,9 @@ package com.fielldBooking.apiRequest.mongodb.datamodel
 import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document
 
-@Document data class SportsList(@Id val id: Int, val name: String, val imageUrl: String)
+@Document data class SportsList(@Id val id: String? = null, val name: String, val imageUrl: String)
 
-@Document data class Fields(@Id val id: Int,
+@Document data class Fields(@Id val id: String,
                   val title: String,
                   val fieldType: String,
                   val address: String,

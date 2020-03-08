@@ -1,6 +1,5 @@
 package com.fielldBooking.apiRequest
 
-import org.springframework.boot.Banner
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
@@ -8,7 +7,5 @@ import org.springframework.boot.runApplication
 class ApiRequestApplication
 
 fun main(args: Array<String>) {
-	runApplication<ApiRequestApplication>(*args){
-		setBannerMode(Banner.Mode.OFF)
-	}
+	runApplication<ApiRequestApplication>(*args)
 }

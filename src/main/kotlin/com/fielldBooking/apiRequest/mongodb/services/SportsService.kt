@@ -1,8 +1,8 @@
 package com.fielldBooking.apiRequest.mongodb.services
 
-import com.fielldBooking.apiRequest.datamodel.SportsList
 import com.fielldBooking.apiRequest.mongodb.BasicCrud
 import com.fielldBooking.apiRequest.mongodb.SportsRepository
+import com.fielldBooking.apiRequest.mongodb.datamodel.SportsList
 import org.springframework.data.domain.Page
 import org.springframework.data.domain.Pageable
 import org.springframework.stereotype.Service

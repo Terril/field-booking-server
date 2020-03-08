@@ -1,8 +1,8 @@
 package com.fielldBooking.apiRequest.mongodb.services
 
-import com.fielldBooking.apiRequest.datamodel.Fields
 import com.fielldBooking.apiRequest.mongodb.BasicCrud
 import com.fielldBooking.apiRequest.mongodb.FieldRepository
+import com.fielldBooking.apiRequest.mongodb.datamodel.Fields
 import org.springframework.data.domain.Page
 import org.springframework.data.domain.Pageable
 import org.springframework.stereotype.Service
