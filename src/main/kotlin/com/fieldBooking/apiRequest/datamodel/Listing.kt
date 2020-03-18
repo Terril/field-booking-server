@@ -1,4 +1,4 @@
-package com.fielldBooking.apiRequest.datamodel
+package com.fieldBooking.apiRequest.datamodel
 
 data class SportsList(val id: Int, val name: String, val imageUrl: String)
 

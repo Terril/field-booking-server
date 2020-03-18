@@ -1,4 +1,4 @@
-package com.fielldBooking.apiRequest.mongodb.datamodel
+package com.fieldBooking.apiRequest.mongodb.datamodel
 
 import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document

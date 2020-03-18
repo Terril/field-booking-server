@@ -1,6 +1,6 @@
-package com.fielldBooking.apiRequest
+package com.fieldBooking.apiRequest
 
-import com.fielldBooking.apiRequest.extensions.filterNull
+import com.fieldBooking.apiRequest.extensions.filterNull
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.info.BuildProperties
 import org.springframework.boot.info.GitProperties

@@ -1,4 +1,4 @@
-package com.fielldBooking.apiRequest.mongodb.util
+package com.fieldBooking.apiRequest.mongodb.util
 
 import java.time.format.DateTimeFormatter
 
