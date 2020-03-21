@@ -3,7 +3,7 @@ package com.fieldBooking.apiRequest
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
-@SpringBootApplication(scanBasePackages = ["com.fieldBooking.apiRequest.controller"])
+@SpringBootApplication(scanBasePackages = ["com.fieldBooking.apiRequest"])
 class ApiRequestApplication
 
 fun main(args: Array<String>) {
